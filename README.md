@@ -11,6 +11,7 @@ This is a capstone project for Udacity's Machine Learning Engineer Nanodegree (M
 - matplotlib 1.5.1
 - jupyter 1.0.0
 - scikit-learn 0.18.1
+- scipy 0.18.1
 - pillow 4.0.0
 - h5py 2.6.0
 
@@ -31,7 +32,7 @@ conda env create -f environment.yml
 For users with GPU, the following command should be used instead:
 
 ```
-conda env create -f environmentGPU.yml
+conda env create -f environment-gpu.yml
 ```
 
 
@@ -45,4 +46,4 @@ conda env remove -n multi-digit
 
 ## Dataset
 
-[Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/), a real-world image dataset for developing machine learning and object recognition algorithms with minimal requirement on data preprocessing and formatting.
+[Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/), a large-scale dataset of house numbers in Google Street View images. It contains over 600,000 digit images.

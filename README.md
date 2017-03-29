@@ -45,10 +45,16 @@ $ conda env remove -n multi-digit
 
 **Activate environment:**
 
-In order to use the environment, you will need to activate it. This must be done **each** time you begin a new working session i.e. open a new terminal window. 
+In order to use the environment, you will need to activate it. This must be done **each** time you open a new terminal window. 
 
 ```
 $ source activate multi-digit
+```
+
+To exit the environment, simply close the terminal window or run the following command:
+
+```
+$ source deactivate multi-digit
 ```
 
 ## Dataset

@@ -21,27 +21,34 @@ This is a capstone project for Udacity's Machine Learning Engineer Nanodegree (M
 
 Follow the instructions on the [Anaconda download site](https://www.continuum.io/downloads).
 
-**Create Environment:**
+**Create environment:**
 
 For users with CPU only, running this command will create a new `conda` environment that is provisioned with all libraries you need to run the iPython notebooks.
 
 ```
-conda env create -f environment.yml
+$ conda env create -f environment.yml
 ```
 
 For users with GPU, the following command should be used instead:
 
 ```
-conda env create -f environment-gpu.yml
+$ conda env create -f environment-gpu.yml
 ```
 
-
-**Uninstalling Environment:**
+**Uninstall environment:**
 
 To uninstall the environment:
 
-```sh
-conda env remove -n multi-digit
+```
+$ conda env remove -n multi-digit
+```
+
+**Activate environment:**
+
+In order to use the environment, you will need to activate it. This must be done **each** time you begin a new working session i.e. open a new terminal window. 
+
+```
+$ source activate multi-digit
 ```
 
 ## Dataset
